@@ -1,0 +1,5 @@
+I repeated a few testes but kept coming up with th same error:
+Target: http://127.0.0.1:5500/Lecture_3/css/Excercise_5.html
+I/O Error: Unable to contact target server 127.0.0.1:5500 after 3 tries
+
+could you please advise?

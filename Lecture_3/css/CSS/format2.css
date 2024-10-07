@@ -1,0 +1,19 @@
+body {
+    background-color: yellow;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a {
+    background-color: white;
+    color: inherit; 
+    text-decoration: none; 
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: green;
+}
