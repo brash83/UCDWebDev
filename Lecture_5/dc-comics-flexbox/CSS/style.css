@@ -1,0 +1,84 @@
+.characters-container {
+    display: flex; /* Enable Flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space items evenly */
+    padding: 0;
+}
+
+.characters-container article {
+    background-color: #114d85;
+    border: 20px solid white;
+    border-radius: 0; 
+    margin: 5px; 
+    flex: 0 1 calc(25% - 10px); /* Set width to 25% minus margin */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.characters-container img {
+    display: block; 
+    border-radius: 0; 
+    background-color: #114d85; 
+    padding: 5px; 
+    width: 100%;
+}
+
+.characters-container h2 {
+    background-color: #114d85; 
+    padding: 0; 
+    border-radius: 0; 
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.characters-container p {
+    background-color: #ffffff; 
+    padding: 5px; 
+    border-radius: 0; 
+    color: black; 
+    margin: 0;
+}
+
+nav {
+    background-color: #114d85; 
+    padding: 10px; 
+    color: white;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background change on hover */
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    display: flex; /* Use Flexbox for the navigation */
+    justify-content: space-around; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    color: white;
+}
+
+
+.movies-container {
+    columns: 2
+   
+}
+
+footer {
+    padding: 20px; 
+    background-color: #114d85; 
+    border-radius: 8px; 
+    color: white;
+    margin-bottom: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    text-align: center;
+}
