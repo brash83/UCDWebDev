@@ -39,7 +39,7 @@
 
 nav {
     background-color: #114d85; 
-    padding: 10px; 
+    padding: 8px; 
     color: white;
 }
 
@@ -71,7 +71,7 @@ nav ul {
 footer {
     padding: 20px; 
     background-color: #114d85; 
-    border-radius: 8px; 
+    border-radius: 9px; 
     color: white;
     margin-bottom: 20px; 
     margin-left: auto;
